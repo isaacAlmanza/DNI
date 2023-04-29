@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_camera"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/baseline_camera_alt_24"
+        android:title="@string/camera" />
+    <item android:id="@+id/sync"
+        android:title="@string/sincronizar"
+        app:showAsAction="never"/>
+    <item android:id="@+id/pendientes"
+        android:title="@string/pendientes"
+        app:showAsAction="never"/>
+    <item android:id="@+id/send"
+        android:title="@string/enviar_informaci_n"
+        app:showAsAction="never"/>
+    <item android:id="@+id/logout"
+        android:title="@string/cerrar_sesi_n"
+        app:showAsAction="never"/>
+
+</menu>

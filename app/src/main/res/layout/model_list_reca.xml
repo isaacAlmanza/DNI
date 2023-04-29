@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18dp"
+        android:id="@+id/titulo"
+        android:hint="@string/app_name"
+        android:paddingStart="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <ImageButton
+        android:id="@+id/eliminar_m_reca"
+        android:layout_width="30dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="20dp"
+        android:layout_height="30dp"
+        android:background="@drawable/effect_click"
+        android:src="@drawable/ic_baseline_restore_from_trash_24"/>
+
+</LinearLayout>
